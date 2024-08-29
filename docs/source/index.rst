@@ -6,7 +6,8 @@ Welcome to Documentation of Freddy-2.0!
     :width: 350px
     :align: center
     :alt: Freddy 2.0
-
+|
+|
 .. toctree::
   :maxdepth: 2
   :caption: Overview
