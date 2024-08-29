@@ -3,10 +3,9 @@ Welcome to Documentation of Freddy-2.0!
 ========================================
 
 .. image:: ../images/freddy_2.png
-    :width: 350px
+    :width: 400px
     :align: center
     :alt: Freddy 2.0
-|
 |
 .. toctree::
   :maxdepth: 2
