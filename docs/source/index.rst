@@ -2,7 +2,7 @@
 Welcome to Documentation of Freddy-2.0!
 ========================================
 
-.. image:: ../../images/freddy_2.png
+.. image:: ../images/freddy_2.png
     :width: 350px
     :align: center
     :alt: Freddy 2.0
@@ -23,4 +23,4 @@ Welcome to Documentation of Freddy-2.0!
   :maxdepth: 2
   :caption: Tutorials
 
-  Tutorial/index.rst
+  Tutorials/index.rst
