@@ -29,7 +29,7 @@ Communication Architecture
 - The power supply to the wheels and the arms are controlled by the PMU board.
 
 .. _powering_the_robot:
-Powering the robot
+Powering the Robot
 ##################
 
 .. _steps_to_power_on:
