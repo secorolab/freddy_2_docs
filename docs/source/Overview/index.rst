@@ -9,26 +9,38 @@ This section includes an overview of the hardware components of Freddy 2.0
 Hardware Components
 ===================
 
-- **Base**: The robot's base is equipped with several key components:
-    - 4 active wheel units, each with a pair of independently controlled wheels with hub motors
-    .. image:: ../../images/wheel-min.jpg
-        :width: 200px
-        :align: center
-        :alt: Freddy 2.0
-    - Laser scanner (Hokuyo UTM-10LX)
-    - Power Management Unit (PMU), which is responsible for controlling the power supply to the wheels and the arms
-    - EtherCAT board to which the wheels are connected
-    - Intel NUC for processing
-    - Network switch to allow communication with the rest of the components
-    - Power button and charging port
-    - Ports for torso connection includes a power port, an ethernet port for communication, and an EtherCAT port for a wireless emergency stop device
-
-- **Torso**: The torso of the robot consists of the following components:
-    -  2 Kinova Gen3 arms
-    -  Ethernet switch enabling communication with both arms and the base
-    -  Ethernet port to access this switch 
-    -  Power button and the emergency button
-    -  Antenna of wireless emergency stop device (RE5910) which is used to enable/disable the power supply to the base and the arms
+**Base** of the robot is equipped with several key components:
+  - 4 active wheel units, each with a pair of independently controlled wheels with hub motors
+  .. image:: ../../images/wheel-min.jpg
+      :width: 200px
+      :alt: single wheel unit
+  |
+  - Laser scanner (Hokuyo UTM-10LX)
+  - Power Management Unit (PMU), which is responsible for controlling the power supply to the wheels and the arms
+  - EtherCAT board to which the wheels are connected
+  - Intel NUC for processing
+  - Network switch to allow communication with the rest of the components
+  - Power button and charging port
+  .. image:: ../../images/base_power_button-min.jpg
+      :width: 200px
+      :alt: EtherCAT board
+  |
+  - Ports for torso connection includes a power port, an ethernet port for communication, and an EtherCAT port for a wireless emergency stop device
+  - Representation of the internal components of the base in top view
+  .. image:: ../../images/base_top_full_annotated.jpg
+      :width: 600px
+      :alt: EtherCAT board
+  
+**Torso** of the robot consists of the following components:
+  -  2 Kinova Gen3 arms
+  -  Ethernet switch enabling communication with both arms and the base
+  -  Ethernet port to access this switch 
+  -  Power button and the emergency button
+  -  Antenna of wireless emergency stop device (RE5910) which is used to enable/disable the power supply to the base and the arms
+  -  Representation of the torso with ethernet port, power button, emergency button, and the antenna of the wireless emergency stop device
+  .. image:: ../../images/torso_power_button-min.jpg
+      :width: 600px
+      :alt: Torso
 
 .. _communication_architecture:
 
