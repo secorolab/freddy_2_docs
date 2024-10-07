@@ -9,15 +9,26 @@ This section includes an overview of the hardware components of Freddy 2.0
 Hardware Components
 ===================
 
-- **Base**: The base of the robot consists of the wheels, the EtherCAT board, the power button and the charging port. It also has a switch to connect different devices and the PMU board.
+- **Base**: The robot's base is equipped with several key components:
+    - 4 active wheel units, each with a pair of independently controlled wheels with hub motors
+    .. image:: ../../images/wheel-min.jpg
+        :width: 200px
+        :align: center
+        :alt: Freddy 2.0
+    - Laser scanner (Hokuyo UTM-10LX)
+    - Power Management Unit (PMU), which is responsible for controlling the power supply to the wheels and the arms
+    - EtherCAT board to which the wheels are connected
+    - Intel NUC for processing
+    - Network switch to allow communication with the rest of the components
+    - Power button and charging port
+    - Ports for torso connection includes a power port, an ethernet port for communication, and an EtherCAT port for a wireless emergency stop device
 
-- **Torso**: The torso of the robot consists of the arms, the ethernet switch, ehternet port, the power button and the emergency button.
-
-- **Arms**: The arms of the robot are connected to the torso via ethernet cables.
-
-- **Power Management Unit (PMU)**: The PMU board is responsible for controlling the power supply to the wheels and the arms.
-
-- **Emergency Button (RE5910)**: The wireless emergency stop device is used to enable/disable the power supply to the robot.
+- **Torso**: The torso of the robot consists of the following components:
+    -  2 Kinova Gen3 arms
+    -  Ethernet switch enabling communication with both arms and the base
+    -  Ethernet port to access this switch 
+    -  Power button and the emergency button
+    -  Antenna of wireless emergency stop device (RE5910) which is used to enable/disable the power supply to the base and the arms
 
 .. _communication_architecture:
 
