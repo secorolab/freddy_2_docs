@@ -14,7 +14,7 @@ Hardware Components
     .. image:: ../../images/wheel-min.jpg
         :width: 200px
         :alt: single wheel unit
-    |
+  |
   - Laser scanner (Hokuyo UTM-10LX)
   - Power Management Unit (PMU), which is responsible for controlling the power supply to the wheels and the arms
   - EtherCAT board to which the wheels are connected
@@ -24,13 +24,13 @@ Hardware Components
     .. image:: ../../images/base_power_button-min.jpg
         :width: 200px
         :alt: EtherCAT board
-    |
+  |
   - Ports for torso connection includes a power port, an ethernet port for communication, and an EtherCAT port for a wireless emergency stop device
   - Representation of the internal components of the base in top view
     .. image:: ../../images/base_top_full_annotated.jpg
         :width: 500px
         :alt: EtherCAT board
-    |
+  |
 
 **Torso** of the robot consists of the following components:
   -  2 Kinova Gen3 arms
