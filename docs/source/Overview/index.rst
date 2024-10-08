@@ -30,7 +30,6 @@ Hardware Components
     .. image:: ../../images/base_top_full_annotated.jpg
         :width: 500px
         :alt: EtherCAT board
-  |
 
 **Torso** of the robot consists of the following components:
   -  2 Kinova Gen3 arms
