@@ -23,13 +23,14 @@ Hardware Components
     .. image:: ../../images/base_top_full_annotated.jpg
         :width: 500px
         :alt: EtherCAT board
+    |
   -  Representation of single wheel unit and the power button with charging port on the base of the robot
     
   .. list-table::
     :widths: auto
     :header-rows: 0
 
-    * - .. image:: ../../images/base_power_button-min.jpg
+    * - .. image:: ../../images/wheel-min.jpg
           :width: 200px
       - .. image:: ../../images/base_power_button-min.jpg
           :width: 200px
