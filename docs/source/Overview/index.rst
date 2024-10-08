@@ -10,30 +10,30 @@ Hardware Components
 ===================
 
 **Base** of the robot is equipped with the following key components:
-  - 4 active wheel units, each with a pair of independently controlled wheels with hub motors. Image of an single wheel unit can be found below
-    
-    .. image:: ../../images/wheel-min.jpg
-        :width: 200px
-        :alt: single wheel unit
-    |
+  - 4 active wheel units, each with a pair of independently controlled wheels with hub motors
   - Laser scanner (Hokuyo UTM-10LX)
   - Power Management Unit (PMU), which is responsible for controlling the power supply to the wheels and the arms
   - EtherCAT board to which the wheels are connected
   - Intel NUC for processing
   - Network switch to allow communication with the rest of the components
-  - Power button and charging port as shown below
-    
-    .. image:: ../../images/base_power_button-min.jpg
-        :width: 200px
-        :alt: EtherCAT board
-    |
+  - Power button and charging port
   - Ports for torso connection includes a power port, an ethernet port for communication, and an EtherCAT port for a wireless emergency stop device
   - Representation of the internal components of the base in top view
     
     .. image:: ../../images/base_top_full_annotated.jpg
         :width: 500px
         :alt: EtherCAT board
-    |
+  -  Representation of single wheel unit and the power button with charging port on the base of the robot
+    
+  .. list-table::
+    :widths: auto
+    :header-rows: 0
+
+    * - .. image:: ../../images/base_power_button-min.jpg
+          :width: 200px
+      - .. image:: ../../images/base_power_button-min.jpg
+          :width: 200px
+  |
 
 **Torso** of the robot consists of the following components:
   -  2 Kinova Gen3 arms
